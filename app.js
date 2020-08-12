@@ -2,7 +2,6 @@ const express=require("express");
 const { response } = require("express");
       app=express();
       bodyParser=require("body-parser");
-      fetch=require("node-fetch");
       cors=require("cors");
       mysql=require("mysql");
       mongoose=require("mongoose");
